@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8D626B55-76A9-4C7A-AB97-5ED3BC0B225B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>sdlcRDLCReport</RootNamespace>
+    <AssemblyName>sdlcRDLCReport</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Application.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationLog.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDPDateRangeAnswers.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDPDateRangeAnswersHistory.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDPQuestionGroups.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDPQuestionnaires.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDPQuestionOptions.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDPQuestions.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDPQuestionSubGroups.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDPQuestionTables.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDPQuestionType.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDPQuestionValidations.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDPSimpleChoiceAnswers.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDPSimpleChoiceAnswersHistory.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDPTableCells.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDPTableColumns.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDPTableInformations.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDPTableRows.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDPTabularAnswer.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDPTabularAnswerHistory.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDPTabularQuestionAnswers.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDPValidationTypes.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBaseService.cs" />
+    <Compile Include="DataStorage.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataStorage.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataStorage.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataStorage.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataStorage.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="EdmMetadata.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EmailNotificationLog.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KMAdditionalInformations.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMAttributes.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMClosedDiscussion.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMComments.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMCorrectiveActions.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMCreditMaster.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMCustomer.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMDocuments.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMDocumentSubType.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMDocumentType.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMEmailNotification.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMFieldClaimClassification.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMFollowingMessage.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMFollowingUser.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMGroupMembers.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMGroups.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMGroups_Bak.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMItems.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMLikeMessage.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMListAttributes.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMMessage.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMMessageTag.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMMoMTeamMemberPresence.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMNotifications.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMPlant.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMPlantExceptionList.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMPrivilege.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMProblemCategory.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMProjectStepDocuments.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMProjectStepMoM.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMQCProjectHistory.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMQCProjects.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMQCProjectStepMapping.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMQCProjectSteps.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMQCTarget.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMReports.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMReportTargetMapping.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMSubDocuments.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMTags.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMTeamMembers.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMTeams.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMTraining.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMUserCredits.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMUserEmailNotification.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMUserEmailNotification_20150910.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KMWarranty.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="kmwarranty_1.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Roles.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RolesPrivilege.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SMR_KMS_DB_DevDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SMR_KMS_DB_DevDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Users.cs">
+      <DependentUpon>DataStorage.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Reports\Report1.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EntityDeploy Include="DataStorage.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DataStorage.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DataStorage.edmx.diagram">
+      <DependentUpon>DataStorage.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SMR_KMS_DB_DevDataSet.xsc">
+      <DependentUpon>SMR_KMS_DB_DevDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SMR_KMS_DB_DevDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SMR_KMS_DB_DevDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SMR_KMS_DB_DevDataSet.xss">
+      <DependentUpon>SMR_KMS_DB_DevDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DataStorage.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DataStorage.edmx</DependentUpon>
+      <LastGenOutput>DataStorage.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="DataStorage.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DataStorage.edmx</DependentUpon>
+      <LastGenOutput>DataStorage.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ReportExporterUtility\ReportExporterUtility.csproj">
+      <Project>{17001680-68e5-4582-934c-dbecbcb819e4}</Project>
+      <Name>ReportExporterUtility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

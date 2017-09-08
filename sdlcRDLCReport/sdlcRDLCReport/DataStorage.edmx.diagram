@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a834fbe01f1f4799a728b116e91ea278" Name="Diagram1">
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.Application" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.ApplicationLog" Width="1.5" PointX="2.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.CDPDateRangeAnswers" Width="1.5" PointX="4.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.CDPQuestionGroups" Width="1.5" PointX="10" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.CDPQuestionnaires" Width="1.5" PointX="7.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.CDPQuestionOptions" Width="1.5" PointX="6.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.CDPQuestions" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.CDPQuestionSubGroups" Width="1.5" PointX="8.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.CDPQuestionTables" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.CDPQuestionType" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.CDPQuestionValidations" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.CDPSimpleChoiceAnswers" Width="1.5" PointX="0.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.CDPTableCells" Width="1.5" PointX="9.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.CDPTableColumns" Width="1.5" PointX="7.5" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.CDPTableInformations" Width="1.5" PointX="2.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.CDPTableRows" Width="1.5" PointX="7.5" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.CDPTabularAnswer" Width="1.5" PointX="11.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.CDPTabularQuestionAnswers" Width="1.5" PointX="13.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.CDPValidationTypes" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.EdmMetadata" Width="1.5" PointX="11.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMAdditionalInformations" Width="1.5" PointX="4.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMAttributes" Width="1.5" PointX="11.25" PointY="40.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMClosedDiscussion" Width="1.5" PointX="14.25" PointY="32.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMComments" Width="1.5" PointX="14.25" PointY="27.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMCorrectiveActions" Width="1.5" PointX="13.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMCreditMaster" Width="1.5" PointX="6.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMCustomer" Width="1.5" PointX="0.75" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMDocuments" Width="1.5" PointX="16.5" PointY="37.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMDocumentSubType" Width="1.5" PointX="16.5" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMDocumentType" Width="1.5" PointX="14.25" PointY="50.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMEmailNotification" Width="1.5" PointX="11.25" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMFieldClaimClassification" Width="1.5" PointX="0.75" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMFollowingMessage" Width="1.5" PointX="19.5" PointY="35.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMFollowingUser" Width="1.5" PointX="11.25" PointY="35.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMGroupMembers" Width="1.5" PointX="13.5" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMGroups" Width="1.5" PointX="11.25" PointY="44.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMItems" Width="1.5" PointX="15.75" PointY="44.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMLikeMessage" Width="1.5" PointX="19.5" PointY="40.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMListAttributes" Width="1.5" PointX="14.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMMessage" Width="1.5" PointX="13.5" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMMessageTag" Width="1.5" PointX="21.75" PointY="38" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMMoMTeamMemberPresence" Width="1.5" PointX="14.25" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMNotifications" Width="1.5" PointX="11.25" PointY="49.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMPlant" Width="1.5" PointX="0.75" PointY="33" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMPlantExceptionList" Width="1.5" PointX="3" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMPrivilege" Width="1.5" PointX="9.75" PointY="24.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMProblemCategory" Width="1.5" PointX="14.25" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMProjectStepDocuments" Width="1.5" PointX="21.5" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMProjectStepMoM" Width="1.5" PointX="12" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMQCProjectHistory" Width="1.5" PointX="14.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMQCProjects" Width="1.5" PointX="6" PointY="32" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMQCProjectStepMapping" Width="1.5" PointX="9.75" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMQCProjectSteps" Width="1.5" PointX="15.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMQCTarget" Width="1.5" PointX="15.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMReports" Width="1.5" PointX="6.75" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMReportTargetMapping" Width="1.5" PointX="16.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMSubDocuments" Width="1.5" PointX="18.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMTags" Width="1.5" PointX="11.25" PointY="52.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMTeamMembers" Width="1.5" PointX="12" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMTeams" Width="1.5" PointX="3.75" PointY="36.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMTraining" Width="1.5" PointX="16.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMUserCredits" Width="1.5" PointX="11.25" PointY="56.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMUserEmailNotification" Width="1.5" PointX="16.5" PointY="32.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMWarranty" Width="1.5" PointX="3" PointY="26.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.Roles" Width="1.5" PointX="6.75" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.RolesPrivilege" Width="1.5" PointX="12" PointY="28.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.Users" Width="1.5" PointX="9" PointY="27.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.CDPDateRangeAnswersHistory" Width="1.5" PointX="16.75" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.CDPSimpleChoiceAnswersHistory" Width="1.5" PointX="17.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.CDPTabularAnswerHistory" Width="1.5" PointX="0.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.EmailNotificationLog" Width="1.5" PointX="2.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMGroups_Bak" Width="1.5" PointX="17.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.KMUserEmailNotification_20150910" Width="1.5" PointX="18.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.kmwarranty_1" Width="1.5" PointX="8.75" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SMR_KMS_DB_DevModel.sysdiagrams" Width="1.5" PointX="18.75" PointY="11.875" IsExpanded="true" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_CDPQuestionGroups_CDPQuestionnaires" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_CDPQuestions_CDPQuestionType" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_CDPQuestionTables_CDPQuestions" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_CDPQuestionValidations_CDPQuestions" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_CDPTableColumns_CDPQuestions" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_CDPTableColumns_CDPQuestionTables" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_CDPTableRows_CDPQuestionTables" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_CDPQuestionValidations_CDPValidationTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_CDPTableCells_CDPTableColumns" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_CDPTableCells_CDPTableRows" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMMessage_KMAttributes" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMMessage_KMAttributes1" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMClosedDiscussion_KMMessage" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMClosedDiscussion_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMClosedDiscussion_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMComments_KMComments" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMComments_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMComments_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMDocuments_KMComments" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMFollowingMessage_KMComments" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMLikeMessage_KMComments" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMQCProjects_KMComments" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMWarranty_KMCustomer" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMDocuments_KMDocumentType" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMDocuments_KMMessage" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMDocuments_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMDocuments_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMSubDocuments_KMDocuments" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMSubDocuments_KMDocumentSubType" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMProjectStepDocuments_KMDocumentType" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMEmailNotification_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMEmailNotification_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMUserEmailNotification_KMEmailNotification" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMFollowingMessage_KMMessage" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMFollowingMessage_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMFollowingMessage_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMFollowingMessage_Users2" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMFollowingUser_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMFollowingUser_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMFollowingUser_Users2" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMFollowingUser_Users3" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMGroupMembers_KMGroups" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMGroupMembers_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMGroupMembers_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMGroupMembers_Users2" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMGroups_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMGroups_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMMessage_KMGroups" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMItems_KMMessages" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMLikeMessage_KMMessage" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMLikeMessage_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMLikeMessage_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMLikeMessage_Users2" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMMessageTag_KMMessage" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMQCProjects_KMMessage" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMWarranty_KMMessage" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMMessageTag_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMMessageTag_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMMoMTeamMemberPresence_KMProjectStepMoM" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMMoMTeamMemberPresence_KMTeamMembers" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMNotifications_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMNotifications_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMPlantExceptionList_KMPlant" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMQCProjects_KMPlant" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMWarranty_KMPlant" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_Users_KMPlant" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_RolesPrivilege_KMPrivilege" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMProblemCategory_KMProjectStepMoM" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMProjectStepDocuments_KMQCProjectStepMapping" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMProjectStepMoM_KMQCProjectStepMapping" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMQCProjects_KMTeams" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMSubDocuments_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMSubDocuments_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMTags_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMTags_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMTeamMembers_KMTeams" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMUserCredits_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMUserEmailNotification_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMUserEmailNotification_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMUserEmailNotification_Users2" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMWarranty_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_KMWarranty_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.FK_RolesPrivilege_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="SMR_KMS_DB_DevModel.RoleUsers" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
