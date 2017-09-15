@@ -5,16 +5,29 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDLCReporting", "ReportingTestWinApp\RDLCReporting.csproj", "{688BCC93-2E87-4923-9DD7-430AC813235C}"
 EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "BIReportServerProject", "BIReportServerProject\BIReportServerProject.rptproj", "{1D932FAB-7E00-474B-BA16-5AB77E4E7370}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		DebugLocal|Any CPU = DebugLocal|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{688BCC93-2E87-4923-9DD7-430AC813235C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{688BCC93-2E87-4923-9DD7-430AC813235C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688BCC93-2E87-4923-9DD7-430AC813235C}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{688BCC93-2E87-4923-9DD7-430AC813235C}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
 		{688BCC93-2E87-4923-9DD7-430AC813235C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{688BCC93-2E87-4923-9DD7-430AC813235C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D932FAB-7E00-474B-BA16-5AB77E4E7370}.Debug|Any CPU.ActiveCfg = Debug
+		{1D932FAB-7E00-474B-BA16-5AB77E4E7370}.Debug|Any CPU.Build.0 = Debug
+		{1D932FAB-7E00-474B-BA16-5AB77E4E7370}.Debug|Any CPU.Deploy.0 = Debug
+		{1D932FAB-7E00-474B-BA16-5AB77E4E7370}.DebugLocal|Any CPU.ActiveCfg = DebugLocal
+		{1D932FAB-7E00-474B-BA16-5AB77E4E7370}.DebugLocal|Any CPU.Build.0 = DebugLocal
+		{1D932FAB-7E00-474B-BA16-5AB77E4E7370}.Release|Any CPU.ActiveCfg = Release
+		{1D932FAB-7E00-474B-BA16-5AB77E4E7370}.Release|Any CPU.Build.0 = Release
+		{1D932FAB-7E00-474B-BA16-5AB77E4E7370}.Release|Any CPU.Deploy.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
